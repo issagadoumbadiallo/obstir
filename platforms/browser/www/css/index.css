@@ -1,0 +1,181 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+/* Generic */
+
+body{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+
+
+
+/* Logo */
+
+
+header{
+  width: 100vw;
+  padding: 30px 0 100px;
+}
+
+header img{
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  header{
+    padding: 30px 0 0;
+  }
+
+  header img{
+    width: 35%;
+  }
+}
+
+
+
+
+
+/* Forms */
+
+.form-wrap{
+    width: 35%;
+    margin: 0 auto;
+}
+
+.left-form{
+  width: 47.5%;
+
+  float: left;
+}
+
+.right-form{
+  width: 47.5%;
+
+  float: right;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .form-wrap{
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .form-wrap{
+    width: 90%;
+  }
+
+  .left-form{
+    width: 100%;
+  }
+
+  .right-form{
+    width: 100%;
+  }
+}
+

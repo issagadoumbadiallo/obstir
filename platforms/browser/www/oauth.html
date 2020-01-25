@@ -1,0 +1,98 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link rel="stylesheet" href="css/oauth.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    </head>
+    <style>
+        .w3-myfont {
+            font-family: "Lobster";
+        }
+    </style>
+    <body class="contenu">
+        <div class="haut">
+            <div class="w3-bar  w3-red">
+                <a href="#" class="w3-bar-item w3-button">Obstir</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small">Link 3</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+              </div>
+              
+              <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+              </div>
+              
+        </div>
+        <div class="w3-container">
+            <p class="w3-large"> Obstir facilite l'interaction entre les agents de sécurité et les entreprises qui souhaitent solliciter leur service. Nous mutialisons les coûts pour qu'ils soient les moins cher pour vous. En vous fournissant les outils de dernière technologie pour vous organiser.</p>
+        </div> 
+        
+         <div class="w3-row">
+            <div class="w3-container w3-half">
+                <div style="display: flex; justify-content: center; flex-direction: column; margin: O%;">
+                    <h1 w3-left class="w3-myfont" style="display: flex;justify-content: center;"> Entreprise </h1>
+                    <div style="display: flex; justify-content: center; flex-direction: row; margin: 0%;">
+                        <div><img src="images/entreprise.svg"alt="logo entreprise" /></div>
+                        <div style="display: flex; justify-content: center; flex-direction: column; margin: 10px 20px 20px 0px;">
+                            <Button class="w3-button w3-round w3-red">
+                                <a href="entreprise/inscription.html" style="text-decoration: none">Connexion</a>
+                            </Button>
+                            <div style="display: flex; justify-content: center; flex-direction: column; margin: 10% 0 20px 0px;">  
+                            <a href="entreprise/oauth.html" aria-setsize="4"><em>Vous n'avez pas encore de compte ? <br/> 
+                                        Inscrivez vous en cliquant ici.</em></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        
+              <div class="w3-container w3-half">
+                <h1 class="w3-myfont" style="display: flex;justify-content: center;"> Agent </h1>
+                <div style="display: flex; justify-content: center; flex-direction: row; margin: 0;">
+                    <div><img src="images/agent.svg" alt="logo_agent" /></div>
+                    <div style="display: flex; justify-content: center; flex-direction: column; margin: 0;">
+                            <Button class="w3-button w3-round w3-red">
+                                <a href="agent/inscription.html" style="text-decoration: none">Connexion</a>
+                            </Button>
+                            <div style="display: flex; justify-content: center; flex-direction: column; margin: 10% 0 20px 0px;">  
+                                <a href="agent/oauth.html" aria-setsize="4">
+                                    <em>Vous n'avez pas encore de compte ? <br/> 
+                                        Inscrivez vous en cliquant ici.
+                                    </em>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+              </div>
+        </div> 
+       
+        <div class="bas">
+            <!-- Peut-être info sur la plateforme -->
+        </div>
+    </body>
+    <!--<script src="./js/vendor/jquery-3.1.0.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="./js/vendor/amazon-cognito-identity.min.js"></script>
+     <script src="https://js.arcgis.com/4.3/"></script> 
+    <script src="./js/entreprise/config.js"></script>
+    <script src="./js/cognito-auth.js"></script>
+    <script src="./js/esri-map.js"></script>
+    <script src="./js/ride.js"></script> -->
+
+    
+    <script>
+        function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+        }
+    </script>
+</html>
